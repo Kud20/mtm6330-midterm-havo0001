@@ -1,7 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+  height: 350px;
+  padding: 1px;
+  border: 5px solid black;
+}
+
 body {
   margin: 0;
-  background: #222;
-  font-family: 'Work Sans', sans-serif;
+  background: white;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 800;
 }
 
@@ -11,7 +27,9 @@ body {
 }
 
 header {
-  background: #55d6aa;
+  background: black;
+  font-family: 'Montserrat', sans-serif;
+  color: green;
 }
 
 header::after {
@@ -44,14 +62,14 @@ nav li {
 }
 
 nav a {
-  color: #444;
+  color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
 }
 
 nav a:hover {
-  color: #000;
+  color: grey;
 }
 
 nav a::before {

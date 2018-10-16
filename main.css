@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 .column {
   float: left;
   width: 33.3%;
@@ -17,7 +18,7 @@ img {
 body {
   margin: 0;
   background: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
 
@@ -28,12 +29,12 @@ body {
 
 header {
   background: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: green;
 }
 
 header::after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
@@ -57,7 +58,6 @@ nav li {
   display: inline-block;
   margin-left: 70px;
   padding-top: 23px;
-
   position: relative;
 }
 
@@ -73,15 +73,13 @@ nav a:hover {
 }
 
 nav a::before {
-  content: '';
+  content: "";
   display: block;
   height: 5px;
   background-color: #444;
-
   position: absolute;
   top: 0;
   width: 0%;
-
   transition: all ease-in-out 250ms;
 }
 
