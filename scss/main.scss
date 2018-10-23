@@ -21,6 +21,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
 }
+//picture / container styling
 .container {
   max-width: 1200px;
   margin: auto;
@@ -40,11 +41,11 @@ body {
 
 header {
   background: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif; //nav items
   color: white;
 }
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico', cursive; //website name
   font-weight: 300;
 }
 
@@ -63,20 +64,22 @@ nav {
   float: right;
 }
 
+//list styling
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+//list styling
 nav li {
   display: inline-block;
   margin-left: 70px;
   padding-top: 42px;
-
   position: relative;
 }
 
+//nav styling
 nav a {
   color: white;
   text-decoration: none;
@@ -100,7 +103,7 @@ nav a::before {
   top: 0;
   width: 0%;
 
-  transition: all ease-in-out 500ms;
+  transition: all ease-in-out 500ms; //hover effect transition
 }
 
 nav a:hover::before {
